@@ -364,7 +364,6 @@ configure(subprojects.findAll {! it.name.startsWith('spark-lineage')}) {
 subprojects {
 
   apply plugin: 'maven-publish'
-  apply plugin: 'com.gorylenko.gradle-git-properties'
   apply plugin: 'com.diffplug.spotless'
 
   gitProperties {
